@@ -115,6 +115,7 @@ public class BoardController {
 	@ResponseBody
 	@RequestMapping(value="ajax.do",method=RequestMethod.POST)
 	public int ajaxTest(HttpServletRequest request, HttpServletResponse response , Model model)throws Exception{
+		String  a= "a";
 		String b="b";
 		return 1;
 		
